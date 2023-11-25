@@ -1,0 +1,27 @@
+{
+  "name": "robobeef.live",
+  "version": "0.1.0",
+  "description": "Welcome to my first, but ambitious project, where you will see various AIs doing some epic battling and debating with each other automatically, while all being **LIVE!**. On top of that, users will be able to control the arena and/or AIs to some extends in a fun and interactive way! All of this done through WebSocketing!",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "turbo": "^1.10.16"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0"
+  }
+}
